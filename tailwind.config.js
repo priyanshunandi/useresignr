@@ -23,11 +23,22 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        // Brand tokens (easy to use across the site)
         primary: {
-          DEFAULT: "#d452b9",
+          DEFAULT: "#6b46c1",
           foreground: "hsl(var(--primary-foreground))",
-          dark: "#b33d9b",
+          dark: "#5b21b6",
         },
+        accent: {
+          DEFAULT: "#8b5cf6",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        // Helpful semantic tokens used on the pricing page
+        bgSoft: "#eaf5ff",
+        infoSoft: "#f6faea",
+        cta: "#6b46c1",
+        ctaHover: "#5b21b6",
+        // keep existing variable-driven tokens for flexibility
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -39,10 +50,6 @@ module.exports = {
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
