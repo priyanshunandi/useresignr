@@ -46,8 +46,9 @@ export default function PricingPage() {
               <p className="text-gray-700 mb-4">One session with a certified mental health + career counselor to review your situation and create a plan.</p>
 
               <div className="flex items-baseline gap-3 mb-4">
-                <span className="text-3xl font-extrabold">$79</span>
-                <span className="text-sm text-gray-500">per session</span>
+                <span className="text-sm text-gray-500 line-through">$51</span>
+                <span className="text-3xl font-extrabold">$35.70</span>
+                <span className="text-sm text-gray-500">per session (discounted)</span>
               </div>
 
               <a
@@ -60,6 +61,10 @@ export default function PricingPage() {
               </a>
 
               <p className="mt-4 text-xs text-gray-500">Secure checkout powered by DodoPayments.</p>
+
+              <p className="mt-3 text-sm text-gray-700">
+                After payment, you will receive further instructions from us via email within 24 hours. We will schedule a meeting with a consultant and share the meeting details by email.
+              </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow">
